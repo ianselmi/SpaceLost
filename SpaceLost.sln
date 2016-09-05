@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceLost", "Win\UI\SpaceLost.csproj", "{7C090B96-6DD0-4DA3-978F-27773A5CA05F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{6B0A241A-27CF-4CB5-83D7-8F79C1BACADC}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\ICSharpCode.SharpZipLib.dll = Libraries\ICSharpCode.SharpZipLib.dll
+		Libraries\XPExplorerBar.dll = Libraries\XPExplorerBar.dll
+		Libraries\XPExplorerBar.xml = Libraries\XPExplorerBar.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

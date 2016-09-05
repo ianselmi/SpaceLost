@@ -42,6 +42,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -49,9 +52,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="XPExplorerBar, Version=3.3.0.0, Culture=neutral, PublicKeyToken=26272737b5f33015">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libraries\XPExplorerBar.dll</HintPath>
+    <Reference Include="XPExplorerBar">
+      <HintPath>..\..\Libraries\XPExplorerBar.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
