@@ -16,5 +16,5 @@ namespace SpaceLost.Win.UI
             Application.SetCompatibleTextRenderingDefault(false); 
             Application.Run(new frmMain());
         }
-    }
+    } 
 }
