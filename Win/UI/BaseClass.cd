@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="SpaceLost.Win.UI.MediaInfo">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MediaInfo.cs</FileName>
+      <HashCode>AAIAACAAAAAACAAAAAAABACAABAACAAAAAABAACAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceLost.Win.UI.MediaStats">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>MediaStats.cs</FileName>
+      <HashCode>AAAACAAQAAgAEAAAAAAQAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceLost.Win.UI.SpaceLostManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SpaceLostManager.cs</FileName>
+      <HashCode>AAAAAAACAAGAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Delegate Name="SpaceLost.Win.UI.SpaceLostManager.GotMediaHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpaceLostManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+  </Class>
+  <Class Name="SpaceLost.Win.UI.Properties.Settings">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

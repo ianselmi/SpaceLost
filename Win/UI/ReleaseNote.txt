@@ -1,0 +1,32 @@
+0.1
+	*	Scan directory
+	*	Organizzazione media in lista con dettaglio
+	*	Drag&Drop dei files presenti nei media
+0.2
+	*	Sostituita la lista con una ListView
+	*	Dettaglio files in media
+			Drag&Drop dei file nellafinestra di dettaglio
+		*	Eliminazione di un file dalla finestra di dettaglio
+			Formattazione dimensione file nella listview
+			Ordinamento listview
+	*	Drag&Drop dei files presenti nei media
+	Visualizzazione risultati
+	Formattazione valori delle label riassuntive
+	Refactoring
+	Rilascio in codeplex 
+	Documentazione codice
+0.3
+	Possibilità di spostare un file da un media ad un'altro
+	Miglioramento visualizzazione ListView con icone	
+	Implementazione gruppi
+	Rilascio in codeplex
+0.4
+	Miglioramento algoritmo di creazione media
+	Rilascio in codeplex
+0.5
+	Salvataggio del risultato dello scan
+	Creazione plugin per creazione progetti per software di masterizzazione
+		Nero
+		EasyCD
+	Rilascio in codeplex
+		
