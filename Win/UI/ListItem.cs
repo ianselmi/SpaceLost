@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-
 namespace SpaceLost.Win.UI
 {
     public class ListItem
@@ -13,6 +9,7 @@ namespace SpaceLost.Win.UI
             get { return _value; }
             set { _value = value; }
         }
+
         private string _text;
 
         public string Text

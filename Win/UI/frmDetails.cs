@@ -1,10 +1,5 @@
 using System;
 using System.IO;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace SpaceLost.Win.UI
@@ -35,7 +30,7 @@ namespace SpaceLost.Win.UI
         private void btnElimina_Click(object sender, EventArgs e)
         {
             foreach (ListViewItem li in lvDetails.SelectedItems)
-            {                
+            {
                 FileInfo fi = li.Tag as FileInfo;
 
                 if (fi != null)

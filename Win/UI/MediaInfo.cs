@@ -1,9 +1,7 @@
 using System;
-using System.IO;
-using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
+using System.IO;
 
 namespace SpaceLost.Win.UI
 {
@@ -13,23 +11,21 @@ namespace SpaceLost.Win.UI
         private string _mediaName = null;
         private long _mediaSize = 0;
 
-
         public string MediaName
         {
             get { return _mediaName; }
             set { _mediaName = value; }
         }
-        
+
         public long MediaSize
         {
-            get { return _mediaSize; }            
+            get { return _mediaSize; }
         }
-        
-        
+
         public new void Add(FileInfo fi)
         {
             _mediaSize += fi.Length;
-            base.Add(fi);            
+            base.Add(fi);
         }
 
         public new void Remove(FileInfo fi)
@@ -40,7 +36,6 @@ namespace SpaceLost.Win.UI
 
         public MediaInfo()
         {
-            
         }
 
         public MediaInfo(string basePath)
@@ -63,7 +58,6 @@ namespace SpaceLost.Win.UI
                 return new ReadOnlyCollection<FileInfo>(base.Items);
             }
         }
-
 
         public List<string> GetListOfFiles()
         {
